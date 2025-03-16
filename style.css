@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.home-page-container{
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#navbar-style1{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar-id
+{
+  float: left;
+}
+
+#navbar-id a{
+    background-color: red;    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+#navbar-head
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+#navbar-head{
+    color:rgba(9, 159, 37, 0.794);
+    font-family: "Markazi Text", serif;
+    font-size: 23px;
+    
+}
+
+#hamburger{
+    height: 30px;
+    width: 45px;
+    padding: 0px;
+}
+#opt1,#opt2,#opt3,#opt4{
+    background-color: rgba(9, 159, 37, 0.794);
+    margin-right: 15px;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+#opt1:hover,#opt2:hover,#opt3:hover,#opt4:hover{
+    background-color: white;
+    color: rgba(9, 159, 37, 0.794);
+    border-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*background video styling*/
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Overlay to Make Text More Readable */
+.video-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Centered Content */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content-head{
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #c44129;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*famous places page styling starts here*/
+.famous-places-page{
+    background-color: #fff;
+    background-size: cover;
+    height: auto;
+}
+
+
+.places-card{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+   
+
+}
+
+.places-card:hover{
+    transform: scale(1.1);
+}
+
+
+.places-card-text{
+    height: 130px;
+    width: 220px;
+    padding: 15px; 
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+
+
+/*features page*/
+.features-page{
+    height: auto;
+    width: auto;
+}
+
+
+.features-page-card{
+    height: 130px;
+    width: 180px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease,box-shadow 0.3s ease;
+}
+
+
+.features-page-card:hover{
+  transform: scale(1.1);  
+}
